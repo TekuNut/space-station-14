@@ -13,16 +13,15 @@
       sprite: Structures/Storage/canister.rsi
       state: grey
     - type: Appearance
-      visuals:
-        - type: GasPortableVisualizer
-          stateConnected: can-connector
-        - type: GasCanisterVisualizer
-          insertedTankState: can-open
-          pressureStates:
-            - can-o0
-            - can-o1
-            - can-o2
-            - can-o3
+    - type: GasPortableVisuals
+      stateConnected: can-connector
+    - type: GasCanisterVisuals
+      insertedTankState: can-open
+      pressureStates:
+        - can-o0
+        - can-o1
+        - can-o2
+        - can-o3
     - type: UserInterface
       interfaces:
         - key: enum.GasCanisterUiKey.Key

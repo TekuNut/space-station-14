@@ -41,6 +41,8 @@ namespace Content.Server.Entry
             "ThermoMachineVisuals",
             "VentPumpVisuals",
             "ScrubberVisuals",
+            "GasCanisterVisuals",
+            "GasPortableVisuals",
         };
     }
 }
