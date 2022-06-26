@@ -44,6 +44,7 @@ namespace Content.Server.Entry
             "GasCanisterVisuals",
             "GasPortableVisuals",
             "GasAnalyzerVisuals",
+            "FireVisuals",
         };
     }
 }
