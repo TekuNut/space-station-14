@@ -43,6 +43,7 @@ namespace Content.Server.Entry
             "ScrubberVisuals",
             "GasCanisterVisuals",
             "GasPortableVisuals",
+            "GasAnalyzerVisuals",
         };
     }
 }

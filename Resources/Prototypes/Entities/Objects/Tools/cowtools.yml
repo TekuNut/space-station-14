@@ -43,7 +43,7 @@
   - type: Tool
     qualities:
     - Screwing
-    useSound: 
+    useSound:
       collection: Screwdriver
     speed: 0.05
 
@@ -145,10 +145,9 @@
     - key: enum.GasAnalyzerUiKey.Key
       type: GasAnalyzerBoundUserInterface
   - type: Appearance
-    visuals:
-    - type: GasAnalyzerVisualizer
-      state_off: milkalyzer
-      state_working: milkalyzer
+  - type: GasAnalyzerVisuals
+    state_off: milkalyzer
+    state_working: milkalyzer
 
 - type: entity
   name: cow toolbox
